@@ -59,7 +59,7 @@
     "test:ui": "vitest --ui --api 9527"
   },
   "devDependencies": {
-    "@algolia/client-search": "^4.17.2",
+    "@algolia/client-search": "^4.18.0",
     "@commitlint/cli": "^17.6.5",
     "@commitlint/config-conventional": "^17.6.5",
     "@semantic-release/changelog": "^6.0.3",

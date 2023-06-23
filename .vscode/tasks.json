@@ -1,16 +1,16 @@
 {
-	"version": "2.0.0",
-	"tasks": [
+  "version": "2.0.0",
+  "tasks": [
     {
       "type": "npm",
-      "script": "build",
+      "script": "size",
       "group": {
         "kind": "build",
         "isDefault": true
       },
       "problemMatcher": [],
       "label": "Build",
-      "detail": "pnpm build"
+      "detail": "pnpm size"
     },
     {
       "type": "npm",
