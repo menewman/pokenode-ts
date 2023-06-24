@@ -1,10 +1,3 @@
-import {
-  handleRequest,
-  handleRequestError,
-  handleResponse,
-  handleResponseError,
-} from "../config/logger";
-import { BaseURL } from "../constants";
 import axios, { AxiosError } from "axios";
 import {
   AxiosCacheInstance,
@@ -14,7 +7,13 @@ import {
   setupCache,
 } from "axios-cache-interceptor";
 
-import { ENDPOINTS } from "../constants";
+import {
+  handleRequest,
+  handleRequestError,
+  handleResponse,
+  handleResponseError,
+} from "../config/logger";
+import { BaseURL, ENDPOINTS } from "../constants";
 
 type ObjectValue<T> = T[keyof T];
 type Endpoint = ObjectValue<typeof ENDPOINTS>;
